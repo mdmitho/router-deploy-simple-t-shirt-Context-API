@@ -3,7 +3,7 @@ import Cart from '../Cart/Cart'
 import useTShirts from '../Hooks/useTShirts';
 import TShirt from '../TShirt/TShirt';
 import './Home.css'
-
+ 
 const Home = () => {
     const [tshirts,setTShirts] = useTShirts()
     const [cart,setCart] = useState([])
