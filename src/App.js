@@ -10,7 +10,6 @@ import OrderReview from './components/OrderReview/OrderReview';
 function App() {
   return (
     <div className="App">
-      <h1>hi</h1>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
